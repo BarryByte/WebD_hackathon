@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: lightblue;
+}
+.header img {
+  max-width: 100%;
+  height: auto;
+  gap: 10px;
+}
+.header_right {
+  display: flex;
+}
+
+.header_right img {
+  margin-right: 13px;
+  margin-left: 13px;
+}
+
+.header .email,
+.header .phone-number {
+  margin: 0;
+}
+.header_left {
+  display: flex;
+  margin-top: 8px;
+  padding: 10px;
+}
+.header_right {
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ 
+  margin-left: 0px;
+  height: 100px;
+  position: fixed;
+  background-color: #e0e0e090;
+}
+.heading {
+  position: fixed;
+  top: 8;
+  left: 0;
+  width: 100%;
+  /* Add your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+  z-index: 1000; /* Set a high z-index to ensure it stays above other elements */
+}
+.title {
+  height: 80px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  padding-left: 100px;
+}
+.home:hover,
+.about:hover,
+.services:hover,
+.department:hover,
+.doctor:hover,
+.dropdown:hover,
+.contact:hover,
+.make:hover {
+  background-color: blueviolet;
+  border-radius: 30px;
+  margin: 5px;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.section span {
+  cursor: crosshair;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+}
+
+.section span:last-child {
+  margin-right: 0; /* Remove right margin for the last span */
+}
+
+.section span:hover {
+  background-color: #1d98a6; /* Change this color to your desired hover background color */
+}
+
+.section {
+  padding: 1px;
+  gap: 20px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 153%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 19%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: rgb(4, 54, 140);
+  padding: 40px 20px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.getstarted {
+  position: absolute;
+  top: 61%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: rgb(4, 54, 140);
+  padding: 20px 20px;
+  font-size: 50px;
+  text-align: center;
+}
+.getstarted:hover {
+  background-color: aqua;
+  border-radius: 50px;
+}
+
+#why-us-box {
+  display: flex;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+
+.box1 {
+  background-color: rgb(0, 102, 255); 
+  color:blanchedalmond
+}
+.why-us-box > div {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  color: black;
+}
+.why-us-box > div > div:first-child {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.part3 {
+  display: flex;
+  padding-top: 10px;
+}
+
+.part3_box1 {
+  flex: 1.5;
+  overflow: hidden;
+  position: relative;
+}
+
+.part3_box1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.part3_box2 {
+  flex: 2; 
+  padding-left: 20px; 
+  font-size: large;
+}
+
+.part3_box2 > div {
+  padding: 10px; /* Adjust padding inside part3_box2 as needed */
+}
+
+.part3_box2 > div > div:first-child {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.part3_box2{
+  padding: 18px;
+}
+
+.stats {
+  display: flex;
+  background-color: white;
+}
+
+.stats div {
+  flex: 2;
+  padding: 5px;
+  margin: 8px;
+  background-color:rgb(121, 121, 218); /* Adjust the background color as needed */
+  text-align: center;
+  justify-content: space-evenly;
+  border-radius: 40px;
+  gap:15px;
+}
+
+.stats div div{
+  font-size: 20px;
+  color: white;
+
+}
+.stats div img{
+  height: 30px;
+  
+}
+.texttext{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+
+}
+.number{
+  font-size: 100px;
+}
+
+footer div{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-family: 'Playfair Display', serif;
+  justify-content: space-between;
+  align-items: center;
+}
