@@ -7,16 +7,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  
   background-color: lightblue;
 }
 .header img {
   max-width: 100%;
   height: auto;
   gap: 10px;
-}
-.header_right {
-  display: flex;
 }
 
 .header_right img {
@@ -30,31 +27,29 @@
 }
 .header_left {
   display: flex;
-  margin-top: 8px;
+  gap:10px;
   padding: 10px;
+  margin: 10px;
 }
 .header_right {
   display: flex;
   justify-content: space-evenly;
+  margin: 10px;
 }
 .heading {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
- 
+  z-index: 1000;
   margin-left: 0px;
   height: 100px;
-  position: fixed;
-  background-color: #e0e0e090;
-}
-.heading {
-  position: fixed;
-  top: 8;
-  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 100%;
-  /* Add your desired background color */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
-  z-index: 1000; /* Set a high z-index to ensure it stays above other elements */
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
 }
 .title {
   height: 80px;
@@ -145,14 +140,20 @@
   border-radius: 50px;
 }
 
-#why-us-box {
+.why-us-box{
   display: flex;
-  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  box-shadow: 2px 2px 2px 2px rgb(239, 219, 219);
+  margin:15px;
 }
 
 .box1 {
   background-color: rgb(0, 102, 255); 
-  color:blanchedalmond
+ 
+}
+.box2,
+.box3,
+.box4{
+  background-color: rgb(239, 219, 219);
 }
 .why-us-box > div {
   flex: 1;
@@ -244,3 +245,272 @@ footer div{
   justify-content: space-between;
   align-items: center;
 }
+
+.afterstats {
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  background-color: white;
+}
+
+.afterstats > div {
+  flex: 1;
+  
+}
+
+.afterstats .services,
+.afterstats .informationaboutnothing {
+  flex: 0.5;
+}
+
+.afterstats .noofbox6 {
+  flex: 2;
+}
+.afterstats {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align all items horizontally */
+  text-align: center; /* Center align text content */
+}
+
+.services {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.informationaboutnothing {
+  font-size: 14px;
+}
+
+.noofbox6 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  align-items: center; 
+}
+
+.noofbox6 > div {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  gap: 8px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 2px lightblue;
+  height: 232px;
+  align-items: center;
+  
+}
+.section2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  gap: 8px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 2px lightblue;
+  height: 232px;
+  align-items: center;
+  
+}
+.section1box1:hover{
+  margin: 10px;
+  /* padding: 10px; */
+  border-radius: 10px;
+  border-color: blue;
+  background-color:  lightcyan;
+  box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
+
+
+}
+.section1box2:hover{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightcyan;
+  /* padding: 5px; */
+  box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
+  
+
+}
+.section1box3:hover{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:  lightcyan;
+  /* padding: 5px; */
+  box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
+
+}
+.section2box1:hover{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:  lightcyan;
+  /* padding: 5px; */
+  box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
+
+}
+.section2box2:hover{
+  margin: 10px;
+  /* padding: 10px; */
+  border-radius: 10px;
+  background-color:  lightcyan;
+  padding: 5px; box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
+
+}
+.section2box3:hover{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:  lightcyan;
+  /* padding: 5px; */
+  box-shadow: 2px 2px 2px 2px rgb(159, 144, 144);
+}
+#make {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+#make {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.line1{
+  display : flex;
+  flex-direction : row; /* Updated to make them appear on the same line */
+  justify-content : space-between;
+  margin-top : 15px;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row; /* Updated to make them appear on the same line */
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.line1,
+.line2{
+  flex: 1;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hoverbutton {
+  background-color: #4c68af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.hoverbutton{
+  height: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.hoverbutton:hover {
+  background-color: #45a049;
+  
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.department-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.department-list-item {
+  margin-right: 15px;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.department-list-item:hover {
+  background-color: #0056b3;
+}
+
+.department-content {
+  display: none;
+}
+
+.department-content.active {
+  display: block;
+  margin-top: 20px;
+}
+
+.department-content h3 {
+  color: #007bff;
+}
+
+.department-content p {
+  color: #333;
+}
+
+.department-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media only screen and (max-width: 600px) {
+  .department-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .department-list-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+

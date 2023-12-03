@@ -29,20 +29,21 @@
         <img src="images/facebook.svg" alt="facebook" />
         <img src="images/linkedin.svg" alt="linkdin" />
       </div>
-      <div class="heading">
-        <div class="title">LOREM_IPSUM</div>
-        <section class="section">
-          <span class="home">Home</span>
-          <span class="about">About</span>
-          <span class="services">Services</span>
-          <span class="department">Department</span>
-          <span class="doctor">Doctor</span>
-          <span class="dropdown">Drop-Down</span>
-          <span class="contact">Contact</span>
-          <span class="make">Make an appointment</span>
-        </section>
-      </div>
+      
     </header>
+    <div class="heading" id="home">
+      <div class="title">LOREM_IPSUM</div>
+      <section class="section">
+        <a href="#home" class="home">Home</a>
+        <a href="#about" class="about">About</a>
+        <a href="#services" class="services">Services</a>
+        <a href="#department" class="department">Department</a>
+        <a href="#doctor" class="doctor">Doctor</a>
+        <a href="#dropdown" class="dropdown">Drop-Down</a>
+        <a href="#contact" class="contact">Contact</a>
+        <a href="#make" class="make">Make an appointment</a>
+      </section>
+    </div>
 
     <div class="about_img">
       <div class="image-container">
@@ -52,8 +53,8 @@
       </div>
     </div>
     <!-- floating box section -->
-    <section id="why-us-box" class="why-us-box">
-      <div class="box1">
+    <section id="about" class="why-us-box">
+      <div class="box1" style="color: white;">
         <div>Why choose LOREM_IPSUM</div>
         <div>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia,
@@ -92,7 +93,7 @@
       </div>
     </section>
     <!-- 3rd part -->
-    <section id="part3" class="part3">
+    <section id="part3 services" class="part3">
       <div class="part3_box1">
         <img src="images/hero-bg.jpg" alt="" />
       </div>
@@ -159,8 +160,100 @@
         <div class="texttext">Awards</div>
       </div>
     </section>
-    <section>
-
+    <section class="afterstats">
+      <div class="services" id="services">
+       <div>Services</div>
+      </div>
+      <div>
+       <div class="informationaboutnothing">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam molestias unde commodi corrupti tempore exercitationem inventore voluptatibus ea laudantium! Aut eveniet inventore modi vero ducimus obcaecati doloribus hic facilis. Dolor!
+        </div>
+      </div>
+      <div class="noofbox6">
+        <section class="section1">
+          <div class="section1box1">
+            <div><img src="" alt=""></div>
+            <div>Lorem ipsum</div>
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis magni sapiente expedita?</div>
+          </div>
+          <div class="section1box2">
+            <div><img src="" alt=""></div>
+            <div>sed de madula</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cum quaerat eos.</div>
+          </div>
+          <div class="section1box3">
+            <div><img src="" alt=""></div>
+            <div> yo yo honey singh</div>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, nemo.</div>
+          </div>
+        </section>
+        <section class="section2">
+          <div class="section2box1">
+            <div><img src="" alt=""></div>
+            <div>magenta riddim</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur officia repellendus inventore.</div>
+          </div>
+          <div class="section2box2">
+            <div><img src="" alt=""></div>
+            <div>nemo enim</div>
+            <div>Lorem ipsum dolor sit amet.</div>
+          </div>
+          <div class="section2box3">
+            <div><img src="" alt=""></div>
+            <div>nika fruit</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="make">
+      <div>make an appointment</div>
+      <div>magnus Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia itaque enim beatae sit commodi sequi suscipit nesciunt, qui fugit. In sit vero quis.</div>
+      <div class="line1">
+        <div><textarea placeholder="Your name" name="Your name" id="" cols="50" rows="2" ></textarea></div>
+        <div><textarea placeholder="Your emial" name="Your email" id="" cols="50" rows="2"></textarea></div>
+        <div><textarea placeholder="Your phone" name="Your phone" id="" cols="50" rows="2"></textarea></div>
+      </div>
+      <div class="line1">
+        <div><textarea  placeholder="appointment date" name="appointment date" id="" cols="50" rows="2"></textarea></div>
+        <div><textarea placeholder="Select Date" name="Select Date" id="" cols="50" rows="2"></textarea></div>
+        <div><textarea placeholder="Select Doctor" name="Select Doctor" id="" cols="50" rows="2"></textarea></div>
+      </div>
+      <div><textarea placeholder="Message(Optinal)"name="" id="" cols="100" rows="10"></textarea></div>
+      <div class="hoverbutton">Make an appointment</div>
+    </section>
+    <section id="departments" class="departments">
+      <div class="container">
+        <div class="section-title">
+          <h2>Departments</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem...</p>
+        </div>
+  
+        <ul class="department-list">
+          <li class="department-list-item" onclick="showDepartment('cardiology')">Cardiology</li>
+          <li class="department-list-item" onclick="showDepartment('neurology')">Neurology</li>
+          <li class="department-list-item" onclick="showDepartment('hepatology')">Hepatology</li>
+          <li class="department-list-item" onclick="showDepartment('pediatrics')">Pediatrics</li>
+          <li class="department-list-item" onclick="showDepartment('eye-care')">Eye Care</li>
+        </ul>
+  
+        <div id="cardiology" class="department-content active">
+          <h3>Cardiology</h3>
+          <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+          <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint...</p>
+          <img src="assets/img/departments-1.jpg" alt="Cardiology" class="department-image">
+        </div>
+  
+        <div id="neurology" class="department-content">
+          <h3>Neurology</h3>
+          <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+          <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est...</p>
+          <img src="assets/img/departments-2.jpg" alt="Neurology" class="department-image">
+        </div>
+  
+        <!-- Repeat the same structure for other departments -->
+  
+      </div>
     </section>
     <footer>
       <div class="footer_left">
